@@ -1,0 +1,1 @@
+<a href='details.html?prodId="+res_data.data[i].product_id+"'>"+res_data.data[i].product_title+"</a>

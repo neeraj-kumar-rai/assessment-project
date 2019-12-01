@@ -1,0 +1,172 @@
+body{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.brownnavbar{
+  background-color: #1b1b1b;
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 0;
+}
+.containe{
+  width: 100%;
+  height: 100%;
+}
+.brand{
+  width: 20%;
+  left: 0;
+  padding: 5px;
+}
+.brand a{
+  text-shadow: 1px 1px 2px white;
+    font-family: 'Helvetica Neue', sans-serif; font-size: 4vw; font-weight: bold; letter-spacing: -0.1vw; line-height: 1; text-align: center;
+}
+.homebutton{
+  text-align: right;
+  width: 80%;
+  right: 0;
+  padding: 1.5vw;
+  float: right;
+  font-size: 1.5vw;
+}
+.heading{
+  margin-top: 0;
+  padding: 3vw;
+  width: 100%;
+  background-color: tomato;
+}
+.heading h1{
+  font-size: 3vw;
+}
+a:hover{
+  text-transform:capitalize;
+}
+
+.mainspecsbox{
+  width: 96.5%;
+  display: flex;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 2vw;
+  background-color: white;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.mainspecstitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 10px;
+  background-color: #ff7f50;
+  border-radius: 20px 0 0 20px;
+}
+.mainspecstitle h3{
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif; font-size: 34px;  letter-spacing: 0vw; line-height: 1.5; text-align: center;
+}
+
+.mainspecs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 40%;
+  font-size: 20px;
+}
+.ullist{
+  width: 100%;
+  margin: auto;
+}
+.imagebuy{
+  width: 100%;
+  display: flex;
+}
+.imageset{
+  margin: 2.1vw;
+  margin-top: 2.5vw;
+  width: 55%;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  left: 0;
+}
+.stores{
+  width: 39%;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 2.5vw;
+  border-radius: 20px;
+  height: 500px;
+  padding: 20px;
+  font-size: 1.3vw;
+  display: flex;
+  right: 0;
+}
+.storecard{
+  border-radius: 10px;
+  width: 30%;
+  height: 25vw;
+  margin: 5px;
+  padding: 5px;
+  left: 0;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+}
+.storecard h3{
+  font-size: 1.5vw;
+}
+.storecard img{
+  width: 6vw;
+}
+
+
+.imagealign{
+  display: block;
+  text-align: center;
+}
+.widthsame{
+  height: 500px ;
+}
+.carousel-inner .carousel-item img{
+  margin: 0 auto;
+}
+.subspecssuper{
+  width: 100%;
+}
+.subspecsdiv{
+  margin: auto;
+  padding: 10px;
+}
+.card{
+  width: 31%;
+  height: 32vw;
+  margin: 15px;
+  float: left;
+  font-size: 1.2vw;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 16px 0 rgba(0, 0, 0, 0.19);
+}
+.card .card-header{
+  font-size: 2vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: darkorange;
+  color: white
+}
+.footer{
+  margin-top: 20px;
+  background-color: tomato;
+  width: 100%;
+  padding: 20px;
+  bottom: 0;
+}
+.innerfooter{
+  color: white;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1.5vw;
+}
+.innerfooter h1{
+  text-shadow: 2px 2px 3px black;
+  color: silver; font-family: 'Helvetica Neue', sans-serif; font-size: 4vw; font-weight: bold; letter-spacing: -0.3vw; line-height: 1; text-align: center; }
+}
