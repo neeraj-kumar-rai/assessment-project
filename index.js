@@ -7,12 +7,12 @@ var url="https://price-api.datayuge.com/api/v1/compare/search?api_key=RZgjPCQKEb
 var xhr = new XMLHttpRequest();
 xhr.open('GET',url);
 xhr.onreadystatechange = function(){
-  console.log('infunction');
+  //console.log('infunction');
   if(this.status==200&&this.readyState==4){
-    console.log('inif')
+    //console.log('inif')
     var res_data = JSON.parse(this.responseText);
   }
-  console.log(res_data);
+  //console.log(res_data);
   document.getElementById('list').innerHTML = '';
   for(let i=0;i<10;i++){
     var mainlist = document.getElementById('list');

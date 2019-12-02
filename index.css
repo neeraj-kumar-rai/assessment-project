@@ -2,7 +2,7 @@
   width: 100%;
 }
 body{
-
+background: linear-gradient(to bottom,#ff6347 0%,#ffffff 100%);
 }
 .output{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -22,9 +22,10 @@ body{
 }
 .box:hover{
   transform: scale(1.06);
+  text-decoration: none;
   transform-style: flat;
   transition: 0.3s;
-  background-color: white;
+background: linear-gradient(to left, #ff6347 0%, #ffffff 70%);
   color: tomato;
   font-size: 1.7vw;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
@@ -56,6 +57,7 @@ a{
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .searchBox{
   border-radius: 10px;
@@ -65,10 +67,10 @@ a{
   display: flex;
   margin-bottom: 28px;
   font-family: 'Helvetica', 'Arial',sans-serif;
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .inputbox{
-  border: 4px solid tomato;
+  border: 4px solid #1b1b1b;
   border-right: none;
   font-size: 2vw;
   height: 6vw;
@@ -77,13 +79,13 @@ a{
   left: 0;
 }
 .buttonbox{
-  border: 4px solid tomato;
+  border: 4px solid #1b1b1b;
   border-left: none;
   padding: 1vw;
   font-size: 2vw;
   height: 6vw;
   border-radius: 0 10px 10px 0;
-  background-color: tomato;
+  background-color: #1b1b1b;
   color: white;
   text-align: center;
   width: 30%;
@@ -105,13 +107,14 @@ a:hover{
 }
 .footer{
   margin-top: 20px;
-  background-color: tomato;
+  background-color: transparent;
   width: 100%;
   padding: 20px;
   bottom: 0;
 }
 .innerfooter{
-  color: white;
+  color: tomato;
+  text-shadow: 1px 1px 2px black;
   margin: auto;
   width: 50%;
   text-align: center;
