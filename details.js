@@ -15,7 +15,7 @@ xhr.onreadystatechange = function(){
     //console.log('inif');
     var res_data = JSON.parse(this.responseText);
   }
-  console.log(res_data);
+  //console.log(res_data);
 
 
   var carouselinner = document.getElementById('carouselinner');
@@ -25,14 +25,14 @@ xhr.onreadystatechange = function(){
     var carouselli = document.createElement('li');
     carouselli.setAttribute('data-target','#myCarousel');
     var string = i+"";
-  //  console.log(string);
+  //  //console.log(string);
     carouselli.setAttribute('data-slide-to',string);
     if(i==0){
       carouselli.setAttribute('class','active');
     }
     carouselol.appendChild(carouselli);
   }
-//  console.log(carouselol);
+//  //console.log(carouselol);
 
   for(let i=0;i<res_data.data.product_images.length;i++){
     var carouseldiv = document.createElement('div');
@@ -48,7 +48,7 @@ xhr.onreadystatechange = function(){
     carouseldiv.appendChild(carouselimage);
     carouselinner.appendChild(carouseldiv);
   }
-//  console.log(carouselinner);
+//  //console.log(carouselinner);
 
 
 
@@ -70,7 +70,7 @@ xhr.onreadystatechange = function(){
       if(this.status=200&&this.readyState==4){
         var res_data2 = JSON.parse(this.responseText);
       }
-      console.log(res_data2);
+      //console.log(res_data2);
 
       var subspecsdiv = document.getElementById('subspecs');
 
@@ -251,7 +251,7 @@ xhr1.onreadystatechange = function(){
   if(this.status=200&&this.readyState==4){
     var res_data1 = JSON.parse(this.responseText);
   }
-//  console.log(res_data1);
+//  //console.log(res_data1);
   var mainspecslist = document.getElementById('mainspecslist');
   for(let i=0;i<res_data1.data.main_specs.length;i++){
     let li = document.createElement('li');
@@ -271,10 +271,13 @@ xhr3.onreadystatechange = function(){
   if(this.status==200&&this.readyState==4){
     var res_data3 = JSON.parse(this.responseText);
   }
-  console.log(res_data3);
-  console.log(res_data3.data.stores);
+  //console.log(res_data3);
+  //console.log(res_data3.data.stores);
 
   var stores = document.getElementById('stores');
+
+  var minpricestoreurl = 'a';
+  var minprice = Number.MAX_VALUE;
 
   var storeprice0 = res_data3.data.stores[0].amazon.product_price;
   if(storeprice0!=undefined){
@@ -390,9 +393,7 @@ xhr3.onreadystatechange = function(){
     stores.appendChild(storediv15);
 
 
-
-    var storelinks = document.getElementsByClassName('blanklinks');
-    storelinks.setAttribute('target','_blank');
+    console.log(minpricestoreurl);
 
 
   }

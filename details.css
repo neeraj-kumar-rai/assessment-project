@@ -91,12 +91,19 @@ a:hover{
   border-radius: 20px;
   left: 0;
 }
-.stores{
+.storesmainbox{
   width: 39%;
   box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
   margin-top: 2.5vw;
   border-radius: 20px;
   height: 500px;
+}
+.stores{
+  width: 100%;
+  /* box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19); */
+  /* margin-top: 2.5vw; */
+  /* border-radius: 20px; */
+  /* height: 500px; */
   padding: 20px;
   font-size: 1.3vw;
   display: flex;
@@ -169,4 +176,15 @@ a:hover{
 .innerfooter h1{
   text-shadow: 2px 2px 3px black;
   color: silver; font-family: 'Helvetica Neue', sans-serif; font-size: 4vw; font-weight: bold; letter-spacing: -0.3vw; line-height: 1; text-align: center; }
+}
+.storeheading{
+  width: 100%;
+  background-color: red;
+}
+.storeheading h1{
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px 20px 0 0;
 }
